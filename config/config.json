@@ -1,0 +1,29 @@
+{
+  "agents": {
+    "credential_agent": {
+      "enabled": true,
+      "interval": 3600,
+      "log_level": "INFO"
+    },
+    "security_agent": {
+      "enabled": true,
+      "interval": 1800,
+      "log_level": "INFO"
+    },
+    "monitoring_agent": {
+      "enabled": true,
+      "interval": 300,
+      "log_level": "INFO"
+    }
+  },
+  "security": {
+    "scan_interval": 3600,
+    "alert_threshold": 80,
+    "max_retries": 3
+  },
+  "monitoring": {
+    "cpu_threshold": 80,
+    "memory_threshold": 80,
+    "disk_threshold": 80
+  }
+}
